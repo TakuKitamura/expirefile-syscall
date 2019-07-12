@@ -566,6 +566,9 @@ asmlinkage long sys_waitid(int which, pid_t pid,
 			   struct siginfo __user *infop,
 			   int options, struct rusage __user *ru);
 
+/* kernel/expirefile.c */
+asmlinkage long sys_expirefile(void);
+
 /* kernel/fork.c */
 asmlinkage long sys_set_tid_address(int __user *tidptr);
 asmlinkage long sys_unshare(unsigned long unshare_flags);
