@@ -52,4 +52,5 @@ Mkfile.old
 dkms.conf
 
 # Env
-.vscodeqemu-image.img
+.vscode
+qemu-image.img
